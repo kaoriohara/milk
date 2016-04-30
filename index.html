@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<script type="text/javascript" src="jquery-1.12.3.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h3>乳量計算</h3>
+<table class="list">
+  <tr>
+    <th>現在量</th>
+    <td><input type="text" name="actual_amount" id="actual_amount" size="5"></td>
+  </tr>
+  <tr>
+    <th>現在体細胞数</th>
+    <td><input type="text" name="actual_percent" id="actual_percent" size="5"></td>
+  </tr>
+  <tr>
+    <th>追加体細胞</th>
+    <td><input type="text" name="actual_amount" id="percent" size="5"></td>
+  </tr>
+  <tr>
+    <th>体細胞の上限</th>
+    <td><input type="text" name="max_percent" id="max_percent" size="5"></td>
+  </tr>
+  <tr>
+    <td cols="2"><input type="button" id="calc_button" value="計算"></td>
+  </tr>
+  <tr>
+    <td cols="2">計算結果: <span id="amount"></span></td>
+  <tr>
+</table>
+
+</body>
+</html>
